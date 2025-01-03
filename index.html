@@ -8,8 +8,8 @@
     <meta name="theme-color" content="#943272">
     <link rel="canonical" href="https://esdentalmedical.com/">
     <meta property="og:url" content="https://esdentalmedical.com/">
-    <meta property="og:image" content="https://esdentalmedical.com/assets/img/logo/Recurso 1@4x.png">
     <meta name="twitter:card" content="summary">
+    <meta property="og:image" content="https://esdentalmedical.com/assets/img/logo/Recurso 1@4x.png">
     <script type="application/ld+json">
         {
             "@context": "http://schema.org",
@@ -113,8 +113,8 @@
                 </div>
             </div>
         </section>
-        <section id="services">
-            <div class="container py-4 py-xl-5">
+        <section class="text-center py-5" id="services">
+            <div class="container">
                 <div class="row mb-5">
                     <div class="col">
                         <div class="section-title">
@@ -122,113 +122,166 @@
                             <p>En nuestra clínica dental, cubrimos diversas áreas de la odontología para satisfacer todas tus necesidades. Nuestro equipo de profesionales altamente especializados utiliza la última tecnología en tratamientos dentales, asegurando así la mejor atención y resultados para cada paciente.</p>
                         </div>
                     </div>
-                </div>
-                <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
-                    <div class="col-sm-12"><a href="#" data-bs-target="#modal-1" data-bs-toggle="modal">
-                            <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="assets/img/tratamientos/1.jpeg">
-                                <div class="card-body p-4">
-                                    <h4 class="card-title">IMPLANTOLOGIA</h4>
-                                    <div class="d-flex"><img class="img-fluid flex-shrink-0 me-3 fit-cover" src="assets/img/logo/Recurso%201@4x.png" width="60" height="50">
-                                        <div>
-                                            <p class="fw-bold mb-0">EsDentalMedical</p>
-                                            <p class="text-muted mb-0">Manacor - Inca</p>
-                                        </div>
-                                    </div>
-                                </div>
+                </div> <div class="row mb-4">
+        <div class="col">
+            <input type="text" id="searchInput" class="form-control" placeholder="Buscar Tratamiento..." onkeyup="searchPosts()">
+        </div>
+    </div>
+                <div class="text-start col blog-post" data-bss-type="blog-loop" data-bss-perpage="17">
+                    <div class="row gx-3 row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-5" data-bss-type="blog-loop-base">
+                        <div class="col" data-bss-type="blog-loop-item">
+                            <div class="card border-0"><a href="tratamientos/Periodoncia.html"><img class="card-img-top" src="assets/img/tratamiento/Periodoncia.jpeg"></a>
+                                <div class="card-body px-0"><a class="text-decoration-none" href="tratamientos/Periodoncia.html">
+                                        <h4 class="fs-5 fw-bold text-body">Periodoncia: Salud de las Encías y los Tejidos de Soporte Dental</h4>
+                                    </a></div>
                             </div>
-                        </a></div>
-                    <div class="col-sm-12"><a href="#" data-bs-target="#modal-1" data-bs-toggle="modal">
-                            <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="assets/img/tratamientos/cirugiadental.jpeg">
-                                <div class="card-body p-4">
-                                    <h4 class="card-title">CIRUGÍA AVANZADA</h4>
-                                    <div class="d-flex"><img class="img-fluid flex-shrink-0 me-3 fit-cover" src="assets/img/logo/Recurso%201@4x.png" width="60" height="50">
-                                        <div>
-                                            <p class="fw-bold mb-0">EsDentalMedical</p>
-                                            <p class="text-muted mb-0">Manacor - Inca</p>
-                                        </div>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="col" data-bss-type="blog-loop-item">
+                            <div class="card border-0"><a href="tratamientos/Ortodoncia.html"><img class="card-img-top" src="assets/img/tratamiento/Ortodoncia.jpeg"></a>
+                                <div class="card-body px-0"><a class="text-decoration-none" href="tratamientos/Ortodoncia.html">
+                                        <h4 class="fs-5 fw-bold text-body">Ortodoncia: Corrección y Mejora de tu Sonrisa con EsDentalMedical</h4>
+                                    </a></div>
                             </div>
-                        </a></div>
-                    <div class="col-sm-12"><a href="#" data-bs-target="#modal-1" data-bs-toggle="modal">
-                            <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="assets/img/tratamientos/bruxi.jpeg">
-                                <div class="card-body p-4">
-                                    <h4 class="card-title">BRUXISMO, ATM Y OCLUSIÓN</h4>
-                                    <div class="d-flex"><img class="img-fluid flex-shrink-0 me-3 fit-cover" src="assets/img/logo/Recurso%201@4x.png" width="60" height="50">
-                                        <div>
-                                            <p class="fw-bold mb-0">EsDentalMedical</p>
-                                            <p class="text-muted mb-0">Manacor - Inca</p>
-                                        </div>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="col" data-bss-type="blog-loop-item">
+                            <div class="card border-0"><a href="tratamientos/OdontologiaDigital.html"><img class="card-img-top" src="assets/img/tratamiento/Odontologia%20Digital.jpeg"></a>
+                                <div class="card-body px-0"><a class="text-decoration-none" href="tratamientos/OdontologiaDigital.html">
+                                        <h4 class="fs-5 fw-bold text-body">Odontología Digital en EsDentalMedical: La Revolución Tecnológica para Tu Sonrisa</h4>
+                                    </a></div>
                             </div>
-                        </a></div>
-                    <div class="col-sm-12"><a href="#" data-bs-target="#modal-1" data-bs-toggle="modal">
-                            <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="assets/img/tratamientos/periodoncia%20(3).jpeg">
-                                <div class="card-body p-4">
-                                    <h4 class="card-title">PERIODONCIA</h4>
-                                    <div class="d-flex"><img class="img-fluid flex-shrink-0 me-3 fit-cover" src="assets/img/logo/Recurso%201@4x.png" width="60" height="50">
-                                        <div>
-                                            <p class="fw-bold mb-0">EsDentalMedical</p>
-                                            <p class="text-muted mb-0">Manacor - Inca</p>
-                                        </div>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="col" data-bss-type="blog-loop-item">
+                            <div class="card border-0"><a href="tratamientos/EstedicaDental.html"><img class="card-img-top" src="assets/img/tratamiento/Estetica%20Dental.jpeg"></a>
+                                <div class="card-body px-0"><a class="text-decoration-none" href="tratamientos/EstedicaDental.html">
+                                        <h4 class="fs-5 fw-bold text-body">Estética Dental: Tu Sonrisa Perfecta con EsDentalMedical</h4>
+                                    </a></div>
                             </div>
-                        </a></div>
-                    <div class="col-sm-12"><a href="#" data-bs-target="#modal-1" data-bs-toggle="modal">
-                            <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="assets/img/tratamientos/ESTÉTICA%20DENTAL.jpeg">
-                                <div class="card-body p-4">
-                                    <h4 class="card-title">ESTÉTICA DENTAL</h4>
-                                    <div class="d-flex"><img class="img-fluid flex-shrink-0 me-3 fit-cover" src="assets/img/logo/Recurso%201@4x.png" width="60" height="50">
-                                        <div>
-                                            <p class="fw-bold mb-0">EsDentalMedical</p>
-                                            <p class="text-muted mb-0">Manacor - Inca</p>
-                                        </div>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="col" data-bss-type="blog-loop-item">
+                            <div class="card border-0"><a href="tratamientos/EndodonciayOdontologiaRestauradora.html"><img class="card-img-top" src="assets/img/tratamiento/Ondodoncia%20y%20Restauradora.jpeg"></a>
+                                <div class="card-body px-0"><a class="text-decoration-none" href="tratamientos/EndodonciayOdontologiaRestauradora.html">
+                                        <h4 class="fs-5 fw-bold text-body">Endodoncia y Odontología Restauradora en EsDentalMedical: Tratamientos Especializados para Tu Salud Dental</h4>
+                                    </a></div>
                             </div>
-                        </a></div>
-                    <div class="col-sm-12"><a href="#" data-bs-target="#modal-1" data-bs-toggle="modal">
-                            <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="assets/img/tratamientos/ORTODONCIA.jpeg">
-                                <div class="card-body p-4">
-                                    <h4 class="card-title">ORTODONCIA</h4>
-                                    <div class="d-flex"><img class="img-fluid flex-shrink-0 me-3 fit-cover" src="assets/img/logo/Recurso%201@4x.png" width="60" height="50">
-                                        <div>
-                                            <p class="fw-bold mb-0">EsDentalMedical</p>
-                                            <p class="text-muted mb-0">Manacor - Inca</p>
-                                        </div>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="col" data-bss-type="blog-loop-item">
+                            <div class="card border-0"><a href="tratamientos/BruxismoATMyOclusion.html"><img class="card-img-top" src="assets/img/tratamiento/bruxismoatmycoclusion.jpeg"></a>
+                                <div class="card-body px-0"><a class="text-decoration-none" href="tratamientos/BruxismoATMyOclusion.html">
+                                        <h4 class="fs-5 fw-bold text-body">Bruxismo, ATM y Oclusión</h4>
+                                    </a></div>
                             </div>
-                        </a></div>
-                    <div class="col-sm-12"><a href="#" data-bs-target="#modal-1" data-bs-toggle="modal">
-                            <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="assets/img/tratamientos/ONDODONCIA%20Y%20RESTAURADORA.jpeg">
-                                <div class="card-body p-4">
-                                    <h4 class="card-title">ONDODONCIA Y RESTAURADORA</h4>
-                                    <div class="d-flex"><img class="img-fluid flex-shrink-0 me-3 fit-cover" src="assets/img/logo/Recurso%201@4x.png" width="60" height="50">
-                                        <div>
-                                            <p class="fw-bold mb-0">EsDentalMedical</p>
-                                            <p class="text-muted mb-0">Manacor - Inca</p>
-                                        </div>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="col" data-bss-type="blog-loop-item">
+                            <div class="card border-0"><a href="tratamientos/SiempreSeColocaUnaCoronaProvisionalElMismoDiaQueElImplanteInmediato.html"><img class="card-img-top" src="assets/img/tratamiento/implantologia/12.jpeg"></a>
+                                <div class="card-body px-0"><a class="text-decoration-none" href="tratamientos/SiempreSeColocaUnaCoronaProvisionalElMismoDiaQueElImplanteInmediato.html">
+                                        <h4 class="fs-5 fw-bold text-body">¿Siempre se coloca una corona provisional el mismo día que el implante inmediato?</h4>
+                                    </a></div>
                             </div>
-                        </a></div>
-                    <div class="col-sm-12"><a href="#" data-bs-target="#modal-1" data-bs-toggle="modal">
-                            <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="assets/img/tratamientos/ODONTONLOGÍA%20DIGITAL.jpeg">
-                                <div class="card-body p-4">
-                                    <h4 class="card-title">ODONTONLOGÍA DIGITAL</h4>
-                                    <div class="d-flex"><img class="img-fluid flex-shrink-0 me-3 fit-cover" src="assets/img/logo/Recurso%201@4x.png" width="60" height="50">
-                                        <div>
-                                            <p class="fw-bold mb-0">EsDentalMedical</p>
-                                            <p class="text-muted mb-0">Manacor - Inca</p>
-                                        </div>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="col" data-bss-type="blog-loop-item">
+                            <div class="card border-0"><a href="tratamientos/QueSucedeSiNoTengoSuficienteHuesoParaColocarImplantesDentales.html"><img class="card-img-top" src="assets/img/tratamiento/implantologia/6.jpeg"></a>
+                                <div class="card-body px-0"><a class="text-decoration-none" href="tratamientos/QueSucedeSiNoTengoSuficienteHuesoParaColocarImplantesDentales.html">
+                                        <h4 class="fs-5 fw-bold text-body">¿Qué sucede si no tengo suficiente hueso para colocar implantes dentales?</h4>
+                                    </a></div>
                             </div>
-                        </a></div>
-                </div>
+                        </div>
+                        <div class="col" data-bss-type="blog-loop-item">
+                            <div class="card border-0"><a href="tratamientos/QueSonLosImplantes24Horas.html"><img class="card-img-top" src="assets/img/tratamiento/implantologia/11.jpeg"></a>
+                                <div class="card-body px-0"><a class="text-decoration-none" href="tratamientos/QueSonLosImplantes24Horas.html">
+                                        <h4 class="fs-5 fw-bold text-body">¿Qué son los implantes 24 horas?</h4>
+                                    </a></div>
+                            </div>
+                        </div>
+                        <div class="col" data-bss-type="blog-loop-item">
+                            <div class="card border-0"><a href="tratamientos/QueFactoresInfluyenEnLaDuracionDeLosImplantes.html"><img class="card-img-top" src="assets/img/tratamiento/implantologia/7.jpeg"></a>
+                                <div class="card-body px-0"><a class="text-decoration-none" href="tratamientos/QueFactoresInfluyenEnLaDuracionDeLosImplantes.html">
+                                        <h4 class="fs-5 fw-bold text-body">¿Qué factores influyen en la duración de los implantes?</h4>
+                                    </a></div>
+                            </div>
+                        </div>
+                        <div class="col" data-bss-type="blog-loop-item">
+                            <div class="card border-0"><a href="tratamientos/Queesunimplantedental.html"><img class="card-img-top" src="assets/img/tratamiento/implantologia/1.jpeg"></a>
+                                <div class="card-body px-0"><a class="text-decoration-none" href="tratamientos/Queesunimplantedental.html">
+                                        <h4 class="fs-5 fw-bold text-body">¿Qué es un implante dental?</h4>
+                                    </a></div>
+                            </div>
+                        </div>
+                        <div class="col" data-bss-type="blog-loop-item">
+                            <div class="card border-0"><a href="tratamientos/QueEsLaPerimplantitis.html"><img class="card-img-top" src="assets/img/tratamiento/implantologia/8.jpeg"></a>
+                                <div class="card-body px-0"><a class="text-decoration-none" href="tratamientos/QueEsLaPerimplantitis.html">
+                                        <h4 class="fs-5 fw-bold text-body">¿Qué es la periimplantitis?</h4>
+                                    </a></div>
+                            </div>
+                        </div>
+                        <div class="col" data-bss-type="blog-loop-item">
+                            <div class="card border-0"><a href="tratamientos/Porqueesimportantereemplazarlosdientesperdidos.html"><img class="card-img-top" src="assets/img/tratamiento/implantologia/2.jpeg"></a>
+                                <div class="card-body px-0"><a class="text-decoration-none" href="tratamientos/Porqueesimportantereemplazarlosdientesperdidos.html">
+                                        <h4 class="fs-5 fw-bold text-body">¿Por qué es importante reemplazar los dientes perdidos?</h4>
+                                    </a></div>
+                            </div>
+                        </div>
+                        <div class="col" data-bss-type="blog-loop-item">
+                            <div class="card border-0"><a href="tratamientos/ImplanteDentaloPuenteSobreDientes.html"><img class="card-img-top" src="assets/img/tratamiento/implantologia/5.jpeg"></a>
+                                <div class="card-body px-0"><a class="text-decoration-none" href="tratamientos/ImplanteDentaloPuenteSobreDientes.html">
+                                        <h4 class="fs-5 fw-bold text-body">¿Implante dental o puente sobre dientes?</h4>
+                                    </a></div>
+                            </div>
+                        </div>
+                        <div class="col" data-bss-type="blog-loop-item">
+                            <div class="card border-0"><a href="tratamientos/EsSeguroColocarseUnImplanteDental.html"><img class="card-img-top" src="assets/img/tratamiento/implantologia/4.jpeg"></a>
+                                <div class="card-body px-0"><a class="text-decoration-none" href="tratamientos/EsSeguroColocarseUnImplanteDental.html">
+                                        <h4 class="fs-5 fw-bold text-body">¿Es seguro colocarse un implante dental?</h4>
+                                    </a></div>
+                            </div>
+                        </div>
+                        <div class="col" data-bss-type="blog-loop-item">
+                            <div class="card border-0"><a href="tratamientos/DeQueMaterialEstanHechosNuestrosImplantesDentales.html"><img class="card-img-top" src="assets/img/tratamiento/implantologia/3.jpeg"></a>
+                                <div class="card-body px-0"><a class="text-decoration-none" href="tratamientos/DeQueMaterialEstanHechosNuestrosImplantesDentales.html">
+                                        <h4 class="fs-5 fw-bold text-body">¿De qué material están hechos nuestros implantes dentales?</h4>
+                                    </a></div>
+                            </div>
+                        </div>
+                        <div class="col" data-bss-type="blog-loop-item">
+                            <div class="card border-0"><a href="tratamientos/CirugiaAvanzada.html"><img class="card-img-top" src="assets/img/tratamiento/CirugiaAvanzada.jpeg"></a>
+                                <div class="card-body px-0"><a class="text-decoration-none" href="tratamientos/CirugiaAvanzada.html">
+                                        <h4 class="fs-5 fw-bold text-body">¿Cuándo es necesario realizar un tratamiento de cirugía avanzada?</h4>
+                                    </a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><script>
+    function searchPosts() {
+        let input = document.getElementById('searchInput').value.toLowerCase().trim();
+        console.log('Texto de búsqueda: ', input);  // Depuración: mostrar el texto de búsqueda
+        
+        input = input.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        console.log('Texto normalizado de búsqueda: ', input);  // Depuración: mostrar el texto normalizado
+        
+        let posts = document.querySelectorAll('[data-bss-type="blog-loop-item"]');
+        console.log('Total de posts: ', posts.length);  // Depuración: mostrar cuántos posts se encontraron
+        
+        if (input === "") {
+            posts.forEach(function(post) {
+                post.style.display = "block"; // Mostrar todos los posts si no hay término de búsqueda
+            });
+        } else {
+            posts.forEach(function(post) {
+                let title = post.querySelector('h4').textContent.toLowerCase().trim();
+                title = title.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+                console.log('Título del post: ', title);  // Depuración: mostrar título de cada post
+
+                if (title.includes(input)) {
+                    post.style.display = "block";
+                    console.log('Post visible: ', title);  // Depuración: mostrar que el post es visible
+                } else {
+                    post.style.display = "none";
+                    console.log('Post oculto: ', title);  // Depuración: mostrar que el post se oculta
+                }
+            });
+        }
+    }
+</script>
+
             </div>
         </section>
         <section id="contact" class="contact">
@@ -238,7 +291,6 @@
                     <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                 </div>
             </div>
-            <div><iframe style="border:0;width:100%;height:350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen=""></iframe></div>
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-lg-6">
@@ -264,7 +316,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <form role="form" class="php-email-form">
                             <div class="row">
                                 <div class="col-md-6 form-group"><input class="form-control form-control" type="text" id="name" name="name" placeholder="Tu Nombre" required=""></div>
                                 <div class="col-md-6 form-group mt-3 mt-md-0"><input class="form-control form-control" type="email" id="email" name="email" placeholder="Tu Correo" required=""></div>
@@ -323,7 +375,8 @@
             <div class="copyright"><span> © Copyright </span><strong><span style="color: #7e206c;">Es Dental Medical</span></strong><span>. Todos los derechos reservados</span></div>
             <div class="credits"><span> Designed by </span><a>Miguel E heredia</a></div>
         </div>
-    </footer><a class="d-flex justify-content-center align-items-center back-to-top" href="#"><i class="bi bi-arrow-up-short"></i></a>
+    </footer>
+    <div id="preloader"></div><a class="d-flex justify-content-center align-items-center back-to-top" href="#"><i class="bi bi-arrow-up-short"></i></a>
     <main>
         <div class="modal fade" role="dialog" tabindex="-1" id="modal-1">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen" role="document">
@@ -339,6 +392,7 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/aos.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/js/vendor/aos/aos.js"></script>
