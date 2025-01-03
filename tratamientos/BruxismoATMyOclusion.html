@@ -136,8 +136,7 @@
             <div class="copyright"><span> © Copyright </span><strong><span style="color: #7e206c;">Es Dental Medical</span></strong><span>. Todos los derechos reservados</span></div>
             <div class="credits"><span> Designed by </span><a>Miguel E heredia</a></div>
         </div>
-    </footer>
-    <div id="preloader"></div><a class="d-flex justify-content-center align-items-center back-to-top" href="#"><i class="bi bi-arrow-up-short"></i></a>
+    </footer><a class="d-flex justify-content-center align-items-center back-to-top" href="#"><i class="bi bi-arrow-up-short"></i></a>
     <main>
         <div class="modal fade" role="dialog" tabindex="-1" id="modal-1">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen" role="document">
@@ -152,17 +151,21 @@
     </main>
     <nav class="navbar navbar-expand sticky-bottom bg-light py-3">
         <div class="container-fluid"><img class="img-fluid" src="../assets/img/logo/Recurso%201@4x.png" width="43" height="36" style="margin-right: 15px;">
-            <div class="d-flex justify-content-center" style="width: 100%;"><a class="btn btn-primary whatsapp-button" role="button" id="whatsapp-btn" style="width: 100%;background: rgb(126,32,108);border-style: none;border-top-right-radius: 0px;border-bottom-right-radius: 0px;font-weight: bold;color: rgb(255,255,255);" href="https://api.whatsapp.com/send?text=" target="_blank">Compartir</a><button class="btn btn-primary" type="button" style="width: 100%;background: rgb(248,249,250);color: rgb(126,32,108);font-weight: bold;border-top-left-radius: 0px;border-bottom-left-radius: 0px;border-style: solid;border-color: rgb(126,32,108);">Preguntar</button></div>
+            <div class="d-flex justify-content-center" style="width: 100%;"><button class="btn btn-primary" id="id-del-boton" type="button" style="width: 100%;background: rgb(126,32,108);border-style: none;border-top-right-radius: 0px;border-bottom-right-radius: 0px;font-weight: bold;color: rgb(255,255,255);">Compartir</button><button class="btn btn-primary" type="button" style="width: 100%;background: rgb(248,249,250);color: rgb(126,32,108);font-weight: bold;border-top-left-radius: 0px;border-bottom-left-radius: 0px;border-style: solid;border-color: rgb(126,32,108);">Preguntar</button></div>
         </div>
     </nav><script>
-    // Obtiene el URL actual de la página
-    const pageUrl = window.location.href;
+  // Obtiene el URL actual de la página
+const pageUrl = window.location.href;
 
-    // Mensaje personalizado
-    const message = `Hola como estas, te recomiendo a EsDentalMedical, la mejor Clinica Dental de Mallorca, Mira esta informacion: ${pageUrl}`;
+// Mensaje personalizado
+const message = `Hola como estas, te recomiendo a EsDentalMedical, la mejor Clinica Dental de Mallorca, Mira esta informacion: ${pageUrl}`;
 
-    // Asigna el mensaje y la URL al enlace de WhatsApp
-    document.getElementById("whatsapp-btn").href = `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`;
+// Asigna el mensaje y la URL al enlace de WhatsApp
+document.getElementById("id-del-boton").addEventListener("click", function() {
+  const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`;
+  window.open(whatsappUrl, '_blank');
+});
+
   </script>
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
