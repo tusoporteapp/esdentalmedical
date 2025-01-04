@@ -166,22 +166,21 @@ document.getElementById("id-del-boton").addEventListener("click", function() {
   window.open(whatsappUrl, '_blank');
 });
 
-  </script><script>
-// Obtiene el URL actual de la página
-const pageUrl = window.location.href;
+  </script> <script>
+    // Obtiene el URL actual de la página
+    const pageUrl = window.location.href;
 
-// Mensaje personalizado
-const message = `Hola, un cordial saludo, me gustaría saber más de este tratamiento: ${pageUrl}`;
+    // Mensaje personalizado
+    const message = `Hola, un cordial saludo, me gustaría saber más de este tratamiento: ${pageUrl}`;
 
-// Número de WhatsApp al que se enviará el mensaje
-const phoneNumber = "+34306122403";
+    // Número de WhatsApp al que se enviará el mensaje
+    const phoneNumber = "34603122403";
 
-// Asigna el mensaje y la URL al enlace de WhatsApp y abre la ventana
-document.getElementById("id-del-boton1").addEventListener("click", function() {
-  const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
-  window.open(whatsappUrl, '_blank');
-});
-
+    // Asigna el mensaje y la URL al enlace de WhatsApp y abre la ventana
+    document.getElementById("id-del-boton1").addEventListener("click", function() {
+      const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+      window.open(whatsappUrl, '_blank');
+    });
   </script>
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
